@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/background"
+    tools:context=".UpdateFileOpen">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_weight="70"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:layout_below="@id/pic">
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Name: "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+        <EditText
+            android:id="@+id/pic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:layout_below="@id/t_name">
+
+        <TextView
+            android:id="@+id/t_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Course: "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"/>
+
+        <EditText
+            android:id="@+id/pic_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:layout_below="@id/t_course">
+
+        <TextView
+            android:id="@+id/t_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Status: "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+        <EditText
+            android:id="@+id/pic_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/update_ass"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/aclonica"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
